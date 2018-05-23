@@ -1,0 +1,133 @@
+*{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+body{
+  background-color: black;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  opacity: .9;
+  align-items: center;
+}
+header img{
+  padding-left: 10px;
+  height: 50px;
+}
+nav{
+  padding-right: 10px;
+  text-align: right;
+  flex-grow: 1;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+.main{
+  padding-top:69px;
+  width: 1200px;
+  margin: auto;
+  opacity: .9;
+}
+#mission{
+  padding-top: 70px;
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  text-align: center;
+}
+#mission-items{
+  font-weight: bold;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+#mission-items h2{
+  font-size: 40px;
+}
+#Tea-Month{
+  width: 1000px;
+  margin: auto;
+  height: 700px;
+  padding-top: 70px;
+}
+.title{
+  font-weight: bold;
+  background-color: black;
+  width: 100%;
+}
+#Tea-Month h2,h4{
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+#Tea-Month h2{
+  font-size: 40px;
+}
+.tea-item img{
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+.tea-item span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.store{
+  flex-direction: row;
+}
+#store-locations{
+  background-image: url(../images/img-locations-background.jpg);
+  height: 575px;
+  text-align: center;
+  margin: auto;
+  width: 1200px;
+}
+#store-locations h2{
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+.location-item{
+  background-color: black;
+  width: 300px;
+  padding: 10px;
+  opacity: 1;
+  display: block;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 20px;
+  flex-basis: 280px;
+}
+.location-item h3,p{
+  padding: 5px;
+}
+#contact{
+  height: 200px;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+}
+#contact h2{
+  font-size: 30px;
+}
+#copyright{
+  padding-left: 20px;
+  text-align: left;
+}
